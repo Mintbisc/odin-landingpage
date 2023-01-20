@@ -6,6 +6,7 @@
     padding-left: 200px;
     padding-bottom: 150px;
     padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -67,4 +68,27 @@ button {
     display: flex;
     justify-content: flex-end;
     padding-top: 100px;
+  }
+
+  .body1 {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 80px;
+  }
+
+  .random {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+
+  }
+
+  .info {
+    max-width: 200px;
   }
