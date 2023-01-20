@@ -92,3 +92,26 @@ button {
   .info {
     max-width: 200px;
   }
+
+  .body2 {
+    background-color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .author {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: end;
+    padding-bottom: 80px;
+  }
