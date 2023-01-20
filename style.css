@@ -44,19 +44,21 @@ a {
     font-size: 18px;
     color: #e5E7EB;
     padding-right: 25px;
+    padding-bottom: 10px;
 }
 
-button {
+button.button1 {
     border: none;
     border-radius: 6px;
     background: #3882f6;
     color: #f9FAF8;
-    padding: 6px 20px;
+    padding: 8px 20px;
     font-weight: bold;
-}
-
-.button1 {
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
 }
 
 .left, .right {
@@ -115,3 +117,49 @@ button {
     text-align: end;
     padding-bottom: 80px;
   }
+
+.body3 {
+    display: flex;
+    flex: 1;
+    background: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    border-color: white;
+    margin: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    
+}
+
+button.button2 {
+    border: 1px solid white;
+    border-radius: 6px;
+    background: #3882f6;
+    color: #f9FAF8;
+    padding: 6px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+}
+
+.signup2 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2 {
+    font-size: 24px;
+    color: #f9FAF8;
+}
+
+.text2 {
+    color: #e5E7EB;
+    font-size: 18px;
+}
