@@ -24,12 +24,12 @@ ul {
     padding: 0;
     gap: 20px;
     justify-content: end;
-    font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color: #e5E7EB;
+    font-size: 16px;
 }
 
 .content {
@@ -162,4 +162,25 @@ button.button2 {
 .text2 {
     color: #e5E7EB;
     font-size: 18px;
+}
+
+.copyright {
+    background-color: #1f2937;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    font-size: 18px;
+    color: #e5E7EB;
+    padding: 30px;
+}
+
+.credit {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
 }
